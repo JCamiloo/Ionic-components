@@ -7,6 +7,7 @@ const routes: Routes = [
   { path: 'alert', loadChildren: './pages/alert/alert.module#AlertPageModule' },
   { path: 'action-sheet', loadChildren: './pages/action-sheet/action-sheet.module#ActionSheetPageModule' },
   { path: 'card', loadChildren: './pages/card/card.module#CardPageModule' },
+  { path: 'avatar', loadChildren: './pages/avatar/avatar.module#AvatarPageModule' },
 ];
 
 @NgModule({

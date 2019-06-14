@@ -1,6 +1,13 @@
 <app-header titulo="card"></app-header>
 
 <ion-content padding>
+  <ion-card>
+    <ion-item>
+      <ion-textarea [(ngModel)]="text" autoGrow="true" placeholder="Detalle de actividad">
+      </ion-textarea>
+    </ion-item>
+  </ion-card>
+
   <ion-card mode="ios">
     <ion-card-header>
       <ion-card-subtitle>Card subtitle</ion-card-subtitle>

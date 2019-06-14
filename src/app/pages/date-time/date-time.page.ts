@@ -7,12 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DateTimePage implements OnInit {
 
-  fechaNaci = new Date(2017, 4, 4, 1, 0, 0, 0).toISOString();
+  fecha:string = '2019-06-13T01:00:10.395-05:00';
+  fechaCompleta:string = new Date().toISOString();
   customPickerOptions;
   customDate;
 
-  constructor() { 
-    console.log(this.fechaNaci);
+  constructor() {
+    console.log(this.fecha);
   }
 
   ngOnInit() {

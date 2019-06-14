@@ -7,8 +7,13 @@
     </ion-list-header>
     <ion-item>
       <ion-label>Fecha de nacimiento</ion-label>
-      <ion-datetime display-format="HH mm" [(ngModel)]="fechaNaci" 
+      <ion-datetime display-format="HH mm" [(ngModel)]="fecha" 
                     (ionChange)="cambioFecha($event)"   cancelText="Cancelar"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Fecha completa</ion-label>
+      <ion-datetime displayFormat="D/MM/YYYY H:mm" [(ngModel)]="fechaCompleta"></ion-datetime>
     </ion-item>
 
     <ion-list-header>

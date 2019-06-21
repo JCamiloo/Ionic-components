@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActionSheetController } from '@ionic/angular';
+import { ActionSheetController, PopoverController } from '@ionic/angular';
 
 @Component({
   selector: 'app-action-sheet',
@@ -8,7 +8,7 @@ import { ActionSheetController } from '@ionic/angular';
 })
 export class ActionSheetPage implements OnInit {
 
-  constructor(private actionSheetCtrl:ActionSheetController) { }
+  constructor(private actionSheetCtrl:ActionSheetController, private popCtrl:PopoverController) { }
 
   ngOnInit() {
   }

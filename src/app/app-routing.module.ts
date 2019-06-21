@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'botones', loadChildren: './pages/botones/botones.module#BotonesPageModule' },
   { path: 'check', loadChildren: './pages/check/check.module#CheckPageModule' },
   { path: 'date-time', loadChildren: './pages/date-time/date-time.module#DateTimePageModule' },
+  { path: 'popover', loadChildren: './pages/popover/popover.module#PopoverPageModule' },
 ];
 
 @NgModule({

@@ -54,6 +54,11 @@ export class InicioPage implements OnInit {
       redirectTo: '/grid'
     },
     {
+      icon: 'infinite',
+      name: 'Infinite Scroll',
+      redirectTo: '/infinite-scroll'
+    },
+    {
       icon: 'tablet-portrait',
       name: 'Popover',
       redirectTo: '/popover'

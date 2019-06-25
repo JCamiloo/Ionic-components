@@ -49,6 +49,11 @@ export class InicioPage implements OnInit {
       redirectTo: '/fab'
     },
     {
+      icon: 'grid',
+      name: 'Grid - Rows',
+      redirectTo: '/grid'
+    },
+    {
       icon: 'tablet-portrait',
       name: 'Popover',
       redirectTo: '/popover'

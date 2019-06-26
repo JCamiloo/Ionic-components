@@ -10,7 +10,7 @@ import { IonList } from '@ionic/angular';
 })
 export class ListPage implements OnInit {
 
-  @ViewChild('lista') lista:IonList;
+  @ViewChild('lista') listado:IonList;
   usuarios:Observable<any>;
 
   constructor(private data: DataService) { }
@@ -21,12 +21,12 @@ export class ListPage implements OnInit {
 
   favorite(user){
     console.log('favorite',user);
-    this.lista.closeSlidingItems();
+    this.listado.closeSlidingItems();
   }
 
   share(user){
     console.log('share',user);
-    this.lista.closeSlidingItems();
+    this.listado.closeSlidingItems();
   }
 
   delete(user){

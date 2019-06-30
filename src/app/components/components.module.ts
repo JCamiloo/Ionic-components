@@ -5,6 +5,7 @@ import { HeaderComponent } from './header/header.component';
 import { PopinfoComponent } from './popinfo/popinfo.component';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MenuComponent } from './menu/menu.component';
   imports: [
     IonicModule,
     FormsModule,
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class ComponentsModule { }
